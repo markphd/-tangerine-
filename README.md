@@ -1,4 +1,4 @@
-# ◈
+# :tangerine:
 
 ### Local-dev
 1. Install dependencies via `npm install` 
@@ -11,7 +11,8 @@
 * [Browser-sync](https://www.npmjs.com/package/browser-sync) - Live CSS Reload & Browser Syncing
 
 ### To-do
-    ✔ - Item 1
-    ✔ - Item 2
-    ❑ - Item 3
-    ❑ - Item 4
+	✔ - Create master layout Pug
+    ✔ - Use Materialize CSS
+    ✔ - Set local fonts
+    ✔ - Get all assets
+    ❑ - A whole lotta more!

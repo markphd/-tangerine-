@@ -1,0 +1,156 @@
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/avenir/avenir-next-bold.eot');
+    src: url('../fonts/avenir/avenir-next-bold.eot') format('embedded-opentype'),
+         url('../fonts/avenir/avenir-next-bold.woff') format('woff'),
+         url('../fonts/avenir/avenir-next-bold.ttf') format('truetype'),
+         url('../fonts/avenir/avenir-next-bold.svg#AvenirNext-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/avenir/avenir-next-italic.eot');
+    src: url('../fonts/avenir/avenir-next-italic.eot') format('embedded-opentype'),
+         url('../fonts/avenir/avenir-next-italic.woff') format('woff'),
+         url('../fonts/avenir/avenir-next-italic.ttf') format('truetype'),
+         url('../fonts/avenir/avenir-next-italic.svg#AvenirNext-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/avenir/avenir-next-regular.eot');
+    src: url('../fonts/avenir/avenir-next-regular.eot') format('embedded-opentype'),
+         url('../fonts/avenir/avenir-next-regular.woff') format('woff'),
+         url('../fonts/avenir/avenir-next-regular.ttf') format('truetype'),
+         url('../fonts/avenir/avenir-next-regular.svg#AvenirNext-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/avenir/avenir-next-thin.eot');
+    src: url('../fonts/avenir/avenir-next-thin.eot') format('embedded-opentype'),
+         url('../fonts/avenir/avenir-next-thin.woff') format('woff'),
+         url('../fonts/avenir/avenir-next-thin.ttf') format('truetype'),
+         url('../fonts/avenir/avenir-next-thin.svg#AvenirNext-Thin') format('svg');
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/avenir/avenir-next-medium.eot');
+  src: url('../fonts/avenir/avenir-next-medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/avenir/avenir-next-medium.woff') format('woff'),
+    url('../fonts/avenir/avenir-next-medium.ttf') format('truetype'),
+    url('../fonts/avenir/avenir-next-medium.svg#AvenirNext-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-black/lato-black.eot);
+  src: local('Lato Black'), local('Lato-Black'), url(../font/lato-black/lato-black.eot?#iefix) format('embedded-opentype'), url(../font/lato-black/lato-black.woff2) format('woff2'), url(../font/lato-black/lato-black.woff) format('woff'), url(../font/lato-black/lato-black.ttf) format('truetype'), url(../font/lato-black/lato-black.svg#lato) format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-heavy/lato-heavy.eot);
+  src: local('Lato Heavy'), local('Lato-Heavy'), url(../font/lato-heavy/lato-heavy.eot?#iefix) format('embedded-opentype'), url(../font/lato-heavy/lato-heavy.woff2) format('woff2'), url(../font/lato-heavy/lato-heavy.woff) format('woff'), url(../font/lato-heavy/lato-heavy.ttf) format('truetype'), url(../font/lato-heavy/lato-heavy.svg#lato) format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-bold/lato-bold.eot);
+  src: local('Lato Bold'), local('Lato-Bold'), url(../font/lato-bold/lato-bold.eot?#iefix) format('embedded-opentype'), url(../font/lato-bold/lato-bold.woff2) format('woff2'), url(../font/lato-bold/lato-bold.woff) format('woff'), url(../font/lato-bold/lato-bold.ttf) format('truetype'), url(../font/lato-bold/lato-bold.svg#lato) format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-semibold/lato-semibold.eot);
+  src: local('Lato Semi Bold'), local('Lato-SemiBold'), url(../font/lato-semibold/lato-semibold.eot?#iefix) format('embedded-opentype'), url(../font/lato-semibold/lato-semibold.woff2) format('woff2'), url(../font/lato-semibold/lato-semibold.woff) format('woff'), url(../font/lato-semibold/lato-semibold.ttf) format('truetype'), url(../font/lato-semibold/lato-semibold.svg#lato) format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-medium/lato-medium.eot);
+  src: local('Lato Medium'), local('Lato-Medium'), url(../font/lato-medium/lato-medium.eot?#iefix) format('embedded-opentype'), url(../font/lato-medium/lato-medium.woff2) format('woff2'), url(../font/lato-medium/lato-medium.woff) format('woff'), url(../font/lato-medium/lato-medium.ttf) format('truetype'), url(../font/lato-medium/lato-medium.svg#lato) format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/lato-regular/lato-regular.eot);
+  src: local('Lato Regular'), local('Lato-Regular'), url(../font/lato-regular/lato-regular.eot?#iefix) format('embedded-opentype'), url(../font/lato-regular/lato-regular.woff2) format('woff2'), url(../font/lato-regular/lato-regular.woff) format('woff'), url(../font/lato-regular/lato-regular.ttf) format('truetype'), url(../font/lato-regular/lato-regular.svg#lato) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+  line-height: 1.5;
+
+  @media only screen and (min-width: 0) {
+    font-size: 14px;
+  }
+
+  @media only screen and (min-width: $medium-screen) {
+    font-size: 14.5px;
+  }
+
+  @media only screen and (min-width: $large-screen) {
+    font-size: 15px;
+  }
+
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: $off-black;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+// Header Styles
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: $h1-fontsize; line-height: 110%; margin: ($h1-fontsize / 2) 0 ($h1-fontsize / 2.5) 0;}
+h2 { font-size: $h2-fontsize; line-height: 110%; margin: ($h2-fontsize / 2) 0 ($h2-fontsize / 2.5) 0;}
+h3 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0;}
+h4 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
+h5 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
+h6 { font-size: $h6-fontsize; line-height: 110%; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0;}
+
+// Text Styles
+em { font-style: italic; }
+strong { font-weight: 500; }
+small { font-size: 75%; }
+.light { font-weight: 300; }
+.thin { font-weight: 200; }
+
+
+.flow-text{
+  font-weight: 300;
+  $i: 0;
+  @while $i <= $intervals {
+    @media only screen and (min-width : 360 + ($i * $interval-size)) {
+      font-size: 1.2rem * (1 + (.02 * $i));
+    }
+    $i: $i + 1;
+  }
+
+  // Handle below 360px screen
+  @media only screen and (max-width: 360px) {
+    font-size: 1.2rem;
+  }
+}
