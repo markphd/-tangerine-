@@ -15,4 +15,5 @@
     ✔ - Use Materialize CSS
     ✔ - Set local fonts
     ✔ - Get all assets
+    ❑ - Fix form alignment
     ❑ - A whole lotta more!
