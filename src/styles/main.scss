@@ -50,11 +50,22 @@ ul, ol {
 
 // MATERIALIZE CSS OVERRIDES
 
+.cta.waves-effect.waves-light.btn-large {
+  width: 160px;
+  margin: 0 auto;
+  border-radius: 35px;
+  background-color: #9CBD3B;
+}
+
+.kicker {
+  margin: 15%;
+}
+
 label {
   font-size: 1.5em;
 }
 
-input#name {
+input#name, input#password {
   font-weight: 500;
   font-size: 1.5em;
 }
