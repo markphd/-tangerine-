@@ -59,7 +59,8 @@ ul, ol {
   border-radius: 35px;
   background-color: #9CBD3B;
   display: block;
-  text-transform: capitalize;
+  text-transform: none;
+  font-weight: 900;
 }
 
 .form--title {
@@ -92,12 +93,11 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 
 .aside--testimonial {
   background-color: #7C6FFF;
-  @include background-image-retina('../images/Mountain-illustration', png, 100%, 100%);
+  @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 
 .aside--testimonial-quote::after {
   content: '';
-  @include background-image-retina('../images/Confetti', png, 100%, 100%);
+  @include background-image-retina('../images/Confetti', png, 100%, 50%);
   background-repeat: y-repeat;
   height: 186px;
   width: 333px;
@@ -140,9 +140,9 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 
 
 #logo {
-  width: 200px;
-  height: 100px;
-  @include background-image-retina('../images/Logo', png, 200px, 100px);
+  width: 45px;
+  height: 39px;
+  @include background-image-retina('../images/Logo', png, 45px, 39px);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
