@@ -1,6 +1,7 @@
 @import "components/color";
 @import "components/variables";
 @import "components/typography";
+@import "components/mixins";
 
 // PRIMARY STYLE 
 
@@ -52,7 +53,6 @@ ul, ol {
   margin-bottom: 0;
 }
 
-
 .form--button.waves-effect.waves-light.btn-large {
   width: 160px;
   margin: 0 auto;
@@ -63,7 +63,7 @@ ul, ol {
 }
 
 .form--title {
-  margin: 10% 0 5%;
+  margin: 20% 0 5%;
 }
 
 
@@ -94,4 +94,16 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
   background-color: #7C6FFF;
   height: 100%;
   width: 100%;
+}
+
+
+#logo {
+  width: 200px;
+  height: 100px;
+  @include background-image-retina('../images/Logo', png, 200px, 100px);
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 39px;
+  left: 33px;
 }
