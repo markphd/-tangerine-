@@ -2,7 +2,6 @@
 @import "components/variables";
 @import "components/typography";
 
-
 // PRIMARY STYLE 
 
 *, *::after, *::before {
@@ -49,20 +48,30 @@ ul, ol {
 
 
 // MATERIALIZE CSS OVERRIDES
+.page--signup.row {
+  margin-bottom: 0;
+}
 
-.cta.waves-effect.waves-light.btn-large {
+
+.form--button.waves-effect.waves-light.btn-large {
   width: 160px;
   margin: 0 auto;
   border-radius: 35px;
   background-color: #9CBD3B;
+  display: block;
+  text-transform: capitalize;
 }
 
-.kicker {
-  margin: 15%;
+.form--title {
+  margin: 10% 0 5%;
 }
 
-label {
-  font-size: 1.5em;
+
+.form--input {
+  max-width: 500px;
+  display: block;
+  margin: 5% auto;
+  padding: 5%;
 }
 
 input#name, input#password {
@@ -81,9 +90,8 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 }
 
 
-.testimonial {
+.aside--testimonial {
   background-color: #7C6FFF;
   height: 100%;
   width: 100%;
-  position: relative;
 }

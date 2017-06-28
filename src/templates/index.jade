@@ -2,22 +2,23 @@ extends layout/master.jade
 
 block content
 	.main
-		.row
+		.page--signup.row
 			.col.m7
-				.kicker
+				.form--title
 					h1.headline Start off with a <br> free project
 					h3.subhead Give it a try before you buy
-				div.input-field.col.m5.offset-m4
-					label(for='name') Email Address
-					input#name(type='text' class='validate')
-				div.input-field.col.m5.offset-m4
-					label(for='password') Password
-					input#password(type='password')
-					.row
-						.col.m3.push-m1
-							.cta.waves-effect.waves-light.btn-large Sign up
-					.row.center
-						p Already have an account?
-			.testimonial.col.m5
+
+				.form--input
+					div.input-field
+						label(for='name') Email Address
+						input#name(type='text' class='validate')
+					div.input-field
+						label(for='password') Password
+						input#password(type='password')
+
+				.form--button.waves-effect.waves-light.btn-large Sign up
+
+				p.center Already have an account?
+			.aside--testimonial.col.m5
 				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo
 				

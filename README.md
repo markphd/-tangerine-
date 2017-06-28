@@ -15,5 +15,12 @@
     ✔ - Use Materialize CSS
     ✔ - Set local fonts
     ✔ - Get all assets
-    ❑ - Fix form alignment
+    ✔ - Fix form alignment
+    ✔ - Make CSS class names clear
+    ✔ - Update Materialize CSS primary color
+    ✔ - Remove Signup page bottom margin
+    ✔ - Include *.html in repo 
+    ❑ - Create nav block
+    ❑ - Add logo
+    ❑ - Complete aside ("Testimonials")
     ❑ - A whole lotta more!
