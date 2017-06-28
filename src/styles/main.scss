@@ -92,8 +92,50 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 
 .aside--testimonial {
   background-color: #7C6FFF;
+  @include background-image-retina('../images/Mountain-illustration', png, 100%, 100%);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  color: #fff;
+}
+
+.aside--testimonial-quote {
+  margin: 30% 0;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.aside--testimonial-quote::after {
+  content: '';
+  @include background-image-retina('../images/Confetti', png, 100%, 100%);
+  background-repeat: y-repeat;
+  height: 186px;
+  width: 333px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  position: absolute;
+  transform: rotate(180deg);
+  opacity: 0.2;
+  filter: grayscale(1);
+  z-index: -1;
+}
+
+.aside--testimonial-quote > h2 {
+  font-size: 1.6em;
+  font-weight: 900;
+  line-height: 29px; 
+}
+
+.aside--figure {
+  position: absolute;
+  right: -2%;  
+  width: 80%;
 }
 
 

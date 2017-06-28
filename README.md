@@ -20,7 +20,8 @@
     ✔ - Update Materialize CSS primary color
     ✔ - Remove Signup page bottom margin
     ✔ - Include *.html in repo 
-    ❑ - Create nav block
-    ❑ - Add logo
-    ❑ - Complete aside ("Testimonials")
+    ✔ - Include dist/images in repo 
+    ✔ - Create nav block
+    ✔ - Add logo
+    ✔ - Complete aside ("Testimonials")
     ❑ - A whole lotta more!
