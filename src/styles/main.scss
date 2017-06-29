@@ -110,7 +110,7 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 
 .aside--testimonial-quote::after {
   content: '';
-  @include background-image-retina('../images/Confetti', png, 100%, 50%);
+  @include background-image-retina('../images/confetti', png, 100%, 50%);
   background-repeat: y-repeat;
   height: 186px;
   width: 333px;
