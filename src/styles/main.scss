@@ -1,6 +1,6 @@
-@import "components/color";
-@import "components/variables";
-@import "components/typography";
+// @import "components/color";
+// @import "components/variables";
+// @import "components/typography";
 @import "components/mixins";
 
 // PRIMARY STYLE 
@@ -16,7 +16,7 @@ html {
 body {
   font-size: 100%;
   // font-size: 1.6rem;
-  font-family: 'Avenir Next Regular';
+  font-family: 'Avenir Next';
   color: #444444;
   background-color: #ffffff;
   margin: 0;
@@ -64,32 +64,30 @@ ul, ol {
 }
 
 .form--title {
-  margin: 20% 0 5%;
+  margin-top: 4em;
+  margin-bottom: 75px;
 }
 
 
 .form--input {
   max-width: 500px;
   display: block;
-  margin: 5% auto;
+  margin: 80px auto 40px;
   padding: 5%;
 }
 
+.inner--label {
+  color: #979797; 
+  font-size: 12px; 
+  position: absolute; 
+  right: 0; top: 8;
+}
+
 input#name, input#password {
-  font-weight: 500;
-  font-size: 1.5em;
+  font-weight: 400;
+  font-size: 1.4em;
+  font-family: 'Avenir Next Medium';
 }
-
-input#name[type="text"]:focus:not(.browser-default):not([readonly]) {
-  border-bottom: 1px solid $border-blue;
-  box-shadow: 0 1px 0 0 $text-blue;
-}
-
-input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
-  border-bottom: 1px solid $border-blue;
-  box-shadow: 0 1px 0 0 $text-blue;
-}
-
 
 .aside--testimonial {
   background-color: #7C6FFF;
@@ -102,7 +100,7 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
 }
 
 .aside--testimonial-quote {
-  margin: 30% 0;
+  margin: 15em 0;
   text-align: center;
   position: relative;
   z-index: 5;
@@ -148,4 +146,13 @@ input#password[type="password"]:focus:not(.browser-default):not([readonly]) {
   position: absolute;
   top: 39px;
   left: 33px;
+}
+
+
+.input--help {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Avenir Next Medium';
+  font-size: 16px;
 }
