@@ -1,0 +1,27 @@
+extends layout/master.jade
+
+block content
+	.main
+		.page--signup.row
+			.col.m7
+				.form--input
+					.form--title
+						h1.headline Let's get you <br> powered up
+						h3.subhead Unlimited project timelines, for $9/month
+					div.input-field
+						label(for='name') Email Address
+						input#name(type='text' class='validate')
+					div.input-field
+						label(for='password') Password
+						input#password(type='password' class='validate')
+
+				.form--button.waves-effect.waves-light.btn-large Login
+
+				.input--help.center
+					a(href="#") Already have an account?
+			.aside--testimonial.col.m5
+				.aside--testimonial-quote
+					h2 
+					p 
+					figure.aside--figure
+						img.responsive-img(src="dist/images/Professional-plan.png")
