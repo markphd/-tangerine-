@@ -1,0 +1,15 @@
+.aside--purchase {
+  background-color: #7C6FFF;
+  @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+}
+
+.aside--purchase-figure {
+  position: absolute;
+  right: 10%;  
+  width: 60%;
+}

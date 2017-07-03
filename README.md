@@ -24,4 +24,8 @@
     ✔ - Create nav block
     ✔ - Add logo
     ✔ - Complete aside ("Testimonials")
+    ✔ - Login Page
+    ✔ - Signup Page
+    ✔ - Purchase Page
+    ❑ - Split css code to modules
     ❑ - A whole lotta more!
