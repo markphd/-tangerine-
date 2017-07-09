@@ -1,0 +1,41 @@
+.aside--purchase {
+  background-color: #7C6FFF;
+  @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+}
+
+.aside--purchase-figure {
+  position: absolute;
+  right: 1%;  
+  width: 80%;
+  top: 10%;
+}
+
+.aside--purchase-glitters {
+  margin: 50% 0;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.aside--purchase-glitters::after {
+  content: '';
+  @include background-image-retina('../images/confetti', png, 100%, 50%);
+  background-repeat: y-repeat;
+  height: 186px;
+  width: 333px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  position: absolute;
+  transform: rotate(180deg);
+  opacity: 0.2;
+  filter: grayscale(1);
+  z-index: -1;
+}
