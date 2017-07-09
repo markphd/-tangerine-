@@ -3,13 +3,13 @@ extends layout/master.jade
 block content
 	.main
 		.page--full.row
-			.col.m7
+			.col.m7.s12
 				.form--input
 					.form--title
 						h1.headline Start off with a <br> free project
 						h3.subhead Give it a try before you buy
 					div.input-field
-						label(for='name') Email Address
+						label(for='name') Email address
 						input#name(type='text' class='validate')
 					div.input-field
 						label(for='password') Password
@@ -20,7 +20,7 @@ block content
 
 				.input--help.center
 					a(href="#") Already have an account?
-			.aside--testimonial.col.m5
+			.aside--testimonial.col.m5.hide-on-small-and-down
 				.aside--testimonial-quote
 					h2 Omelo has enabled me to push <br> code, not deadlines
 					p -Moe A (Dixon&moe.com)
