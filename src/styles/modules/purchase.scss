@@ -4,16 +4,16 @@
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   color: #fff;
 }
 
-.aside--purchase-figure {
-  position: absolute;
-  right: 1%;  
-  width: 80%;
-  top: 10%;
-}
+// .aside--purchase-figure {
+//   position: absolute;
+//   right: 1%;  
+//   max-width: 80%;
+//   top: 10%;
+// }
 
 .aside--purchase-glitters {
   margin: 50% 0;
@@ -40,4 +40,14 @@
   z-index: -1;
   right: 10%;  
   width: 60%;
+}
+
+
+@media #{$medium-and-up} {
+  .aside--purchase-figure {
+    position: absolute;
+    right: 1%;  
+    max-width: 80%;
+    top: 1%;
+  }
 }
