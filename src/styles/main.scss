@@ -65,6 +65,16 @@ ul, ol {
   opacity: 0;
 }
 
+.spinner-layer.spinner-white {
+  border-color: #fff;
+}
+
+.preloader-wrapper.smaller {
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+
 @media #{$small-and-down} {
   #logo {
     width: 45px;
