@@ -25,7 +25,6 @@
 .aside--purchase-glitters::after {
   content: '';
   @include background-image-retina('../images/confetti', png, 100%, 50%);
-  background-repeat: y-repeat;
   height: 186px;
   width: 333px;
   top: 0;
@@ -34,12 +33,7 @@
   right: 0;
   margin: auto auto;
   position: absolute;
-  transform: rotate(180deg);
-  opacity: 0.2;
-  filter: grayscale(1);
   z-index: -1;
-  right: 10%;  
-  width: 60%;
 }
 
 
