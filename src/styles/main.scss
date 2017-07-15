@@ -128,9 +128,10 @@ ul, ol {
 
   .inner--label {
     color: #979797; 
-    font-size: 12px; 
+    font-size: 14px; 
     position: absolute; 
     right: 0; top: 8;
+    text-transform: uppercase;
   }
 
   input#name, input#password {
