@@ -82,7 +82,7 @@ ul, ol {
     @include background-image-retina('../images/Logo', png, 45px, 39px);
     background-repeat: no-repeat;
     display: block;
-    margin: 40px auto 0;
+    margin: 35px auto 30px;
   }
 
   .form--title {
@@ -91,7 +91,7 @@ ul, ol {
 
   .form--input {
     max-width: 260px;
-    margin: 0 auto 90px;
+    margin: 0 auto 120px;
   }
 
   .input--help {
@@ -100,24 +100,23 @@ ul, ol {
 
   h1.headline {
     font-size: 24px;
+    margin: 0;
   }
 
   h3.subhead {
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 82px;
   }
 }
 
 
 @media #{$medium-and-up} {
 
-
-
   .form--title {
     margin-top: 1%;
     margin-bottom: 75px;
   }
-
 
   .form--input {
     max-width: 500px;

@@ -38,6 +38,17 @@
 }
 
 
+
+@media #{$small-and-down} {
+  .inner--label {
+    color: #979797; 
+    font-size: 14px; 
+    position: absolute; 
+    right: 0; top: 8;
+    text-transform: uppercase;
+  }
+}
+
 @media #{$medium-and-up} {
   .aside--purchase-figure {
     position: absolute;
