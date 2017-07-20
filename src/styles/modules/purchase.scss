@@ -10,19 +10,11 @@
 }
 
 .aside--purchase-glitters {
-  // z-index: 5;
-  // @include background-image-retina('../images/group', png, 400px, 200px);
-  // background-repeat: no-repeat;
-  // background-size: contain;
-  // background-position: 0 20%;
-  // height: 100%;
-  // width: 100%;
-
   z-index: 5;
-  @include background-image-retina('../images/group', png, 100%, 100%);
+  background-image: url(../images/group@2x.png);
   background-size: contain;
   background-repeat: no-repeat;
-  // background-position: 50% 20%;
+  background-position: inherit;
   height: 300px;
   max-width: 600px;
   top: 10%;
