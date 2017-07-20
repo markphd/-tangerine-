@@ -10,13 +10,26 @@
 }
 
 .aside--purchase-glitters {
+  // z-index: 5;
+  // @include background-image-retina('../images/group', png, 400px, 200px);
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: 0 20%;
+  // height: 100%;
+  // width: 100%;
+
   z-index: 5;
-  @include background-image-retina('../images/group', png, 400px, 200px);
-  background-repeat: no-repeat;
+  @include background-image-retina('../images/group', png, 100%, 100%);
   background-size: contain;
-  background-position: 0 20%;
-  height: 100%;
-  width: 100%;
+  background-repeat: no-repeat;
+  // background-position: 50% 20%;
+  height: 300px;
+  max-width: 600px;
+  top: 10%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .aside--professional-plan {
@@ -24,7 +37,7 @@
   background-image: url(../images/Professional-plan.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% center;
   height: 400px;
   width: 100%;
   top: 30%;
@@ -38,7 +51,7 @@
     color: #979797; 
     font-size: 14px; 
     position: absolute; 
-    right: 0; top: 8;
+    right: 0; top: 8px;
     text-transform: uppercase;
   }
 }
