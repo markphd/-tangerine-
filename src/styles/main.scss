@@ -82,7 +82,7 @@ ul, ol {
     @include background-image-retina('../images/Logo', png, 45px, 39px);
     background-repeat: no-repeat;
     display: block;
-    margin: 35px auto 30px;
+    margin: 15% auto 10%;
   }
 
   .form--title {
@@ -91,7 +91,7 @@ ul, ol {
 
   .form--input {
     max-width: 260px;
-    margin: 0 auto 120px;
+    margin: 0 auto 10%;
   }
 
   .input--help {
@@ -105,8 +105,8 @@ ul, ol {
 
   h3.subhead {
     font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 82px;
+    margin-top: 2%;
+    margin-bottom: 25%;
   }
 }
 

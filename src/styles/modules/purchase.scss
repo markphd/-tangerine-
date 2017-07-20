@@ -6,38 +6,32 @@
   background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
+  position: relative;
 }
-
-// .aside--purchase-figure {
-//   position: absolute;
-//   right: 1%;  
-//   max-width: 80%;
-//   top: 10%;
-// }
 
 .aside--purchase-glitters {
-  margin: 50% 0;
-  text-align: center;
-  position: relative;
   z-index: 5;
+  @include background-image-retina('../images/group', png, 400px, 200px);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 20%;
+  height: 100%;
+  width: 100%;
 }
 
-.aside--purchase-glitters::after {
-  content: '';
-  @include background-image-retina('../images/group', png, 100%, 50%);
+.aside--professional-plan {
+  z-index: 10;
+  background-image: url(../images/Professional-plan.png);
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 563px;
+  background-position: center;
+  height: 400px;
   width: 100%;
-  top: 0;
-  bottom: 0;
+  top: 30%;
+  position: absolute;
   left: 0;
   right: 0;
-  margin: auto auto;
-  position: absolute;
-  z-index: -1;
 }
-
-
 
 @media #{$small-and-down} {
   .inner--label {
