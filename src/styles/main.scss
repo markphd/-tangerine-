@@ -113,6 +113,10 @@ ul, ol {
 
 @media #{$medium-and-up} {
 
+  h1.headline, h3.subhead {
+    margin: 3%;
+  }
+
   .form--title {
     margin-top: 1%;
     margin-bottom: 75px;
@@ -199,7 +203,7 @@ ul, ol {
 
   .input--help {
     display: block;
-    margin-top: 20px;
+    margin-top: 2%;
     font-weight: 500;
     font-family: 'Avenir Next Medium';
     font-size: 16px;
