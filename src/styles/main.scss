@@ -42,6 +42,12 @@ ul, ol {
   padding: 0;
 }
 
+.alert--message {
+  margin: 2%;
+  color: #cdcdcd;
+  line-height: 19px;
+}
+
 
 // END PRIMARY STYLE 
 
@@ -72,7 +78,7 @@ ul, ol {
 .preloader-wrapper.smaller {
     width: 26px;
     height: 26px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @media #{$small-and-down} {
@@ -108,6 +114,11 @@ ul, ol {
     margin-top: 2%;
     margin-bottom: 25%;
   }
+
+  .alert--message {
+    margin: 7%;
+  }
+
 }
 
 
