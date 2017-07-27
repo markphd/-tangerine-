@@ -48,6 +48,11 @@ ul, ol {
   line-height: 19px;
 }
 
+.hideShowPassword-toggle-show, .hideShowPassword-toggle-hide {
+  cursor: pointer;
+  padding: 2% 4%;
+}
+
 // p.inner--label::after {
 //   content: 'SHOW';
 //   position: absolute;
