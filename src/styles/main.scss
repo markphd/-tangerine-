@@ -48,6 +48,17 @@ ul, ol {
   line-height: 19px;
 }
 
+// p.inner--label::after {
+//   content: 'SHOW';
+//   position: absolute;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   right: 10px;
+//   margin: auto;
+//   height: 20px;
+//   width: 20px;
+// }
 
 // END PRIMARY STYLE 
 
@@ -65,10 +76,6 @@ ul, ol {
   display: block;
   text-transform: none;
   font-weight: 900;
-}
-
-.hide {
-  opacity: 0;
 }
 
 .spinner-layer.spinner-white {
@@ -183,7 +190,7 @@ ul, ol {
 
   .aside--testimonial-quote::after {
     content: '';
-    @include background-image-retina('../images/confetti', png, 100%, 50%);
+    @include background-image-retina('../images/confetti', png, 100%, 100%);
     height: 186px;
     width: 333px;
     top: 0;
