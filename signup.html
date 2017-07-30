@@ -21,7 +21,7 @@
             </div>
             <div class="input-field">
               <label for="password">Password</label>
-              <input class="validate" id="password" type="password"/>
+              <input class="validate" id="signup-password" type="password"/>
               <p class="inner--label">6+ characters</p>
             </div>
           </div>
@@ -37,6 +37,25 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      	var elem = document.getElementById("signup-password");
+      
+      	elem.addEventListener('focus', function() {
+      		var label = document.getElementsByClassName("inner--label")[0];
+      		label.classList.add('hide');
+      	});
+      
+      	elem.addEventListener('focusout', function() {
+      		if (elem.value === "") {
+      			var label = document.getElementsByClassName("inner--label")[0];
+      			label.classList.remove('hide');
+      		}
+      		//- var label = document.getElementsByClassName("inner--label")[0];
+      		//- label.classList.remove('hide');
+      	})
+      });
+    </script>
     <script src="dist/scripts/jquery.min.js"></script>
     <script src="dist/scripts/hideshowpassword.min.js"></script>
     <script src="dist/scripts/materialize.min.js"></script>
