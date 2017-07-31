@@ -1,6 +1,7 @@
 .aside--purchase {
   background-color: #7C6FFF;
-  @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
+  // @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
+  background-image: url(../images/Mountain-illustration@2x.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -51,27 +52,48 @@
     font-size: 23px;
   }
 
+  .purchase--page-img {
+    width: auto;
+    height: 106px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: slideUp 1.9s, fadeIn 2.3s;
+  }
+
   .purchase--page .headline, .purchase--page .subhead {
     color: #fff;
   }
 
   .purchase--page .form--title {
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 110px;
+  }
+
+  .purchase--page h1.headline {
+    animation: slideUp 1.5s, fadeIn 1.5s;
+  }
+
+  .purchase--page h3.subhead {
+    animation: slideUp 1.8s, fadeIn 1.8s;
   }
 
   .purchase--page .form--title::before {
     z-index: -1;
     content: '';
-    height: 250px;
+    height: 300px;
     width: 100vw;
     background-image: url('../images/confetti@2x.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #7D73F6;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    animation: fadeIn 1s;
   }
 }
 

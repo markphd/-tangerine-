@@ -76,7 +76,7 @@ ul, ol {
 }
 
 .form--button.waves-effect.waves-light.btn-large {
-  width: 160px;
+  width: 150px;
   margin: 0 auto;
   border-radius: 35px;
   background-color: #9CBD3B;
@@ -104,6 +104,7 @@ ul, ol {
     background-repeat: no-repeat;
     display: block;
     margin: 6% auto 10%;
+    animation: fadeIn 2.3s;
   }
 
   .page--full.row {
@@ -119,8 +120,18 @@ ul, ol {
     margin: 0 auto 16%;
   }
 
+  .form--input > .input-field {
+    animation: fadeIn 2.5s;
+  }
+
+  .input--help-forgot {
+    position: relative;
+    top: -25px;
+    padding: 0 1%;
+  }
+
   .input--help {
-    margin-top: 5px;
+    margin-top: 7%;
     animation: slideUp 1.9s, fadeIn 2.3s;
   }
 
@@ -136,7 +147,7 @@ ul, ol {
 
   h3.subhead {
     font-size: 16px;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 25%;
     animation: slideUp 1.5s, fadeIn 1.5s;
   }
@@ -145,7 +156,20 @@ ul, ol {
     margin: 7%;
   }
 
+  .form--cancel {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.60;
+    cursor: pointer;
+  }
+
 }
+
+
+
 
 
 @media #{$medium-and-up} {

@@ -32,4 +32,20 @@ $( document ).ready(function() {
 	$('#confirm-password').on('focus', function() {
 		$('label[for="confirm-password"]').addClass('active');
 	})
+
+	$('#purchase-password').hidePassword({
+		innerToggle: true,
+		enforceWidth: true,
+		toggle: {
+			element: '<p>',
+			className: 'inner--label'
+		},
+		wrapper: {
+			enforceWidth: true
+		}
+	});
+
+	$('#purchase-password').on('focus', function() {
+		$('label[for="purchase-password"]').addClass('active');
+	})
 });
