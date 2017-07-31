@@ -65,7 +65,10 @@ ul, ol {
 //   width: 20px;
 // }
 
-
+.warning--message {
+  color: #F05069;
+  animation: fadeIn 3s;
+}
 
 // END PRIMARY STYLE 
 
@@ -154,6 +157,10 @@ ul, ol {
 
   .alert--message {
     margin: 7%;
+  }
+
+  .warning--message {
+    margin: 0;
   }
 
   .form--cancel {

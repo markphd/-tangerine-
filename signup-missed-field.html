@@ -1,0 +1,65 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width"/>
+    <link href="dist/css/main.css" rel="stylesheet"/>
+    <link href="dist/css/materialize.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="logo"></div>
+    <div class="main">
+      <div class="page--full row">
+        <div class="col m12 s12 l7">
+          <div class="form--input">
+            <div class="form--title">
+              <h1 class="headline">Start off with a <br> free project</h1>
+              <h3 class="subhead">Give it a try before you buy</h3>
+            </div>
+            <div class="input-field">
+              <label for="name">Email address</label>
+              <input class="validate" id="name" type="text"/>
+            </div>
+            <div class="input-field">
+              <label for="password">Password</label>
+              <input class="validate" id="signup-password" type="password"/>
+              <p class="inner--label">6+ characters</p>
+            </div>
+            <p class="warning--message center">Whoops, you missed a field</p>
+          </div>
+          <div class="form--button waves-effect waves-light btn-large">Sign up</div>
+          <div class="input--help center"><a href="#">Already have an account?</a></div>
+        </div>
+        <div class="aside--testimonial col l5 hide-on-med-and-down">
+          <div class="aside--testimonial-quote">
+            <h2>Omelo has enabled me to push <br> code, not deadlines</h2>
+            <p>-Moe A (Dixon&moe.com)</p>
+            <figure class="aside--figure"><img class="responsive-img" src="dist/images/devices.png"/></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      	var elem = document.getElementById("signup-password");
+      
+      	elem.addEventListener('focus', function() {
+      		var label = document.getElementsByClassName("inner--label")[0];
+      		label.classList.add('hide');
+      	});
+      
+      	elem.addEventListener('focusout', function() {
+      		if (elem.value === "") {
+      			var label = document.getElementsByClassName("inner--label")[0];
+      			label.classList.remove('hide');
+      		}
+      		//- var label = document.getElementsByClassName("inner--label")[0];
+      		//- label.classList.remove('hide');
+      	})
+      });
+    </script>
+    <script src="dist/scripts/jquery.min.js"></script>
+    <script src="dist/scripts/hideshowpassword.min.js"></script>
+    <script src="dist/scripts/materialize.min.js"></script>
+    <script src="dist/scripts/main.js"></script>
+  </body>
+</html>

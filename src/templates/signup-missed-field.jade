@@ -1,0 +1,48 @@
+extends layout/master.jade
+
+block content
+	.main
+		.page--full.row
+			.col.m12.s12.l7
+				.form--input
+					.form--title
+						h1.headline Start off with a <br> free project
+						h3.subhead Give it a try before you buy
+					div.input-field
+						label(for='name') Email address
+						input#name(type='text' class='validate')
+					div.input-field
+						label(for='password') Password
+						input#signup-password(type='password' class='validate')
+						p.inner--label 6+ characters
+
+					p.warning--message.center Whoops, you missed a field
+
+				.form--button.waves-effect.waves-light.btn-large Sign up
+
+				.input--help.center
+					a(href="#") Already have an account?
+			.aside--testimonial.col.l5.hide-on-med-and-down
+				.aside--testimonial-quote
+					h2 Omelo has enabled me to push <br> code, not deadlines
+					p -Moe A (Dixon&moe.com)
+					figure.aside--figure
+						img.responsive-img(src="dist/images/devices.png")
+	script.
+		document.addEventListener("DOMContentLoaded", function() {
+			var elem = document.getElementById("signup-password");
+
+			elem.addEventListener('focus', function() {
+				var label = document.getElementsByClassName("inner--label")[0];
+				label.classList.add('hide');
+			});
+
+			elem.addEventListener('focusout', function() {
+				if (elem.value === "") {
+					var label = document.getElementsByClassName("inner--label")[0];
+					label.classList.remove('hide');
+				}
+				//- var label = document.getElementsByClassName("inner--label")[0];
+				//- label.classList.remove('hide');
+			})
+		});
