@@ -65,6 +65,8 @@ ul, ol {
 //   width: 20px;
 // }
 
+
+
 // END PRIMARY STYLE 
 
 
@@ -81,6 +83,7 @@ ul, ol {
   display: block;
   text-transform: none;
   font-weight: 900;
+  animation: fadeIn 2.3s;
 }
 
 .spinner-layer.spinner-white {
@@ -118,6 +121,7 @@ ul, ol {
 
   .input--help {
     margin-top: 5px;
+    animation: slideUp 1.9s, fadeIn 2.3s;
   }
 
   .inner--label {
@@ -127,12 +131,14 @@ ul, ol {
   h1.headline {
     font-size: 24px;
     margin: 0;
+    animation: slideUp 1s, fadeIn 1s;
   }
 
   h3.subhead {
     font-size: 16px;
     margin-top: 2%;
     margin-bottom: 25%;
+    animation: slideUp 1.5s, fadeIn 1.5s;
   }
 
   .alert--message {
@@ -148,6 +154,14 @@ ul, ol {
     margin: 3%;
   }
 
+  h1.headline {
+    animation: slideUp 1s, fadeIn 1s;
+  }
+
+  h3.subhead {
+    animation: slideUp 1.5s, fadeIn 1.6s;
+  }
+
   .form--title {
     margin-top: 1%;
     margin-bottom: 75px;
@@ -160,12 +174,20 @@ ul, ol {
     padding: 5%;
   }
 
+  .form--input > .input-field {
+    animation: fadeIn 2.5s;
+  }
+
   .inner--label {
     color: #979797; 
     font-size: 14px; 
     position: absolute; 
     right: 0; top: 8;
     text-transform: uppercase;
+  }
+
+  .input--help {
+    animation: fadeIn 2.5s;
   }
 
   input#name, input#password {
@@ -182,6 +204,7 @@ ul, ol {
     background-repeat: no-repeat;
     height: 100%;
     color: #fff;
+    animation: fadeIn 2.3s;
   }
 
 
@@ -229,6 +252,7 @@ ul, ol {
     position: absolute;
     top: 39px;
     left: 33px;
+    animation: fadeIn 2.3s;
   }
 
 
@@ -239,5 +263,64 @@ ul, ol {
     font-family: 'Avenir Next Medium';
     font-size: 16px;
   }
-
 }
+
+
+// @keyframes(fadeIn)
+//   0%
+//     opacity: 0
+//   40%
+//     opacity: 0
+//   100%
+//     opacity: 1
+
+// @keyframes(slideUp)
+//   0%
+//     transform: translateY(40px)
+//   40%
+//     transform: translateY(40px)
+//   100%
+//     transform: translateY(0)
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;   
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(40px)
+    }
+
+    40% {
+        transform: translateY(40px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+// @keyframes slideLeft {
+//     0% {
+//         transform: translateX(700px)
+//     }
+
+//     40% {
+//         transform: translateX(700px)
+//     }
+
+//     100% {
+//         transform: translateY(0)
+//     }
+// }
