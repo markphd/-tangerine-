@@ -1,0 +1,14 @@
+// COLOR
+
+a {
+	color: #303f9f;
+}
+
+.form--input .input-field label {
+  font-size: 1.4rem;
+}
+
+.form--input > input:focus:not([type]):not([readonly]), input[type="date"]:focus:not(.browser-default):not([readonly]), input[type="datetime-local"]:focus:not(.browser-default):not([readonly]), input[type="datetime"]:focus:not(.browser-default):not([readonly]), input[type="email"]:focus:not(.browser-default):not([readonly]), input[type="number"]:focus:not(.browser-default):not([readonly]), input[type="password"]:focus:not(.browser-default):not([readonly]), input[type="search"]:focus:not(.browser-default):not([readonly]), input[type="tel"]:focus:not(.browser-default):not([readonly]), input[type="text"]:focus:not(.browser-default):not([readonly]), input[type="time"]:focus:not(.browser-default):not([readonly]), input[type="url"]:focus:not(.browser-default):not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #3949ab;
+    box-shadow: 0 1px 0 0 #3949ab;
+}
