@@ -60,4 +60,6 @@ $( document ).ready(function() {
 	$('#purchase-password').on('focusout', function() {
 		$('label[for="purchase-password"]').removeClass('active');
 	})
+
+	$('#cancel-subscription-modal').modal('open')
 });

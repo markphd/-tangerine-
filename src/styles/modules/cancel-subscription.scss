@@ -1,0 +1,38 @@
+#cancel-subscription-modal {
+	background-image: url('../images/illustration@2x.png');
+	background-repeat: no-repeat;
+	background-position: 0 62px;
+	background-size: 240px;
+	padding: 16% 1%;
+	height: 462px;
+	width: 430px;
+	border-radius: 4px;
+}
+
+.cancel--button.waves-effect.waves-light.btn-large {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 35px;
+  background-color: #F14965;
+  display: block;
+  text-transform: none;
+  font-weight: 400;
+  animation: fadeIn 2.3s;
+}
+
+.dialogue--main {
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.dialogue--msg {
+	font-size: 16px;
+	line-height: 22px;
+	color: #CDCDCD;
+}
+
+.dialogue--action {
+	margin: 5%;
+	color: #cdcdcd;
+	line-height: 19px;	
+}

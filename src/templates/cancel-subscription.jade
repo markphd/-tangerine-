@@ -2,11 +2,11 @@ extends layout/master.jade
 
 block content
 	.main
-		a.waves-effect.waves-light.btn.modal-trigger(href='#modal1') Modal
-		// Modal Structure
-		#modal1.modal
+		#cancel-subscription-modal.modal
 			.modal-content
-				h4 Modal Header
-				p A bunch of text
-			.modal-footer
-				a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='#!') Agree
+				h1.dialogue--main.center Are you sure you want to cancel your unlimited plan?
+				h3.dialogue--msg.center Canceling will delete your timelines and you will <br> not receive any ongoing payments
+			
+			.cancel--button.waves-effect.waves-light.btn-large Confirm cancellation
+			.dialogue--action.center
+				a(href="#") I changed my mind
