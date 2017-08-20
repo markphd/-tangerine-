@@ -196,6 +196,21 @@ a {
   color: #cdcdcd;
   line-height: 19px; }
 
+#logo.signup-success {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  left: 0;
+  right: 0; }
+
+#signup-success {
+  padding: 70px 10px; }
+
+.video-container {
+  height: 300px;
+  width: 680px;
+  padding: 0; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 
