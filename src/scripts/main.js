@@ -62,4 +62,5 @@ $( document ).ready(function() {
 	})
 
 	$('#cancel-subscription-modal').modal('open')
+	$('#purchase-stripe-modal').modal('open')
 });

@@ -3,18 +3,34 @@
   <head>
     <meta name="viewport" content="width=device-width"/>
     <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" rel="stylesheet"/>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="dist/css/main.css" rel="stylesheet"/>
   </head>
   <body>
     <div id="logo"></div>
     <div class="main">
-      <div class="modal" id="cancel-subscription-modal">
-        <div class="modal-content">
-          <h1 class="dialogue--main center">Are you sure you want to cancel your unlimited plan?</h1>
-          <h3 class="dialogue--msg center">Canceling will delete your timelines and you will <br> not receive any ongoing payments</h3>
+      <div class="modal" id="purchase-stripe-modal">
+        <div class="stripe--payment-header">
+          <button class="stripe--close"></button>
+          <button class="stripe--logo"></button>
+          <h1 class="stripe--payment-headline">Professional</h1>
+          <p class="stripe--payment-subhead">$9/month</p>
         </div>
-        <div class="cancel--button waves-effect waves-light btn-large">Confirm cancellation</div>
-        <div class="dialogue--action center"><a href="#">I changed my mind</a></div>
+        <div class="stripe--payment-input">
+          <div class="stripe--email-label"></div>
+          <input class="stripe--email-input" type="email" placeholder="Email"/>
+          <div class="stripe--card-label"></div>
+          <input class="stripe--card-input" type="text" placeholder="Card number"/>
+          <div class="stripe--mmyy-label"></div>
+          <input class="stripe--mmyy-input" type="text" placeholder="MM / YY"/>
+          <div class="stripe--cvc-label"></div>
+          <input class="stripe--cvc-input" type="text"/><br/>
+          <div class="stripe--remember-me">
+            <input class="stripe--checkbox-input" type="checkbox" id="remember"/>
+            <label for="remember">Remember Me</label>
+          </div>
+          <div class="stripe--pay-button waves-effect waves-light btn-large">Pay $9.99</div>
+        </div>
       </div>
     </div>
     <script src="dist/scripts/jquery.min.js"></script>

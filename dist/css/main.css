@@ -211,6 +211,264 @@ a {
   width: 680px;
   padding: 0; }
 
+#purchase-stripe-modal {
+  width: 298px;
+  height: 440px;
+  overflow: visible; }
+
+.stripe--payment-header {
+  background: linear-gradient(180deg, #F5F5F7 0%, #E6E6E7 100%);
+  width: 298px;
+  height: 108px;
+  border-bottom: 1px solid #ccc; }
+
+button.stripe--close {
+  position: relative;
+  top: 9px;
+  left: 9px;
+  height: 18px;
+  width: 18px;
+  border: none;
+  background: url("../images/stripe-close.png") no-repeat;
+  background-size: contain; }
+
+button.stripe--logo {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 72px;
+  width: 72px;
+  border: 1px solid #B3B3B3;
+  box-shadow: inset 0 -1px 3px 0 #979797, 0 0 6px 0 rgba(179, 179, 179, 0.84);
+  background: url("../images/omelo-white-bg-logo.png") no-repeat;
+  background-color: #FFFFFF;
+  background-size: 40px;
+  border-radius: 50%;
+  background-position: 50%; }
+
+button.stripe--logo::after {
+  content: '';
+  position: absolute;
+  height: 62px;
+  width: 62px;
+  border: 1px solid #B3B3B3;
+  box-shadow: inset 0 -1px 3px 0 #979797, 0 0 6px 0 rgba(179, 179, 179, 0.84);
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.stripe--payment-headline, .stripe--payment-subhead {
+  font-family: "Helvetica Neue";
+  text-shadow: 0 1px 1px 0 #FFFFFF;
+  text-align: center; }
+
+h1.stripe--payment-headline {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 30px 0 0; }
+
+.stripe--payment-subhead {
+  font-size: 13px;
+  color: #666666;
+  line-height: 15px;
+  margin: 0; }
+
+.stripe--payment-input {
+  height: 329px;
+  background-color: #F5F5F5;
+  padding: 10px; }
+
+#purchase-stripe-modal input.stripe--email-input {
+  height: 37px;
+  width: 228px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin: 18px auto;
+  display: block;
+  color: #B3B3B3; }
+
+.stripe--email-label::before {
+  content: 'mail_outline';
+  display: block;
+  position: relative;
+  height: 11px;
+  width: 14px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  top: 30px;
+  left: 35px;
+  right: 0;
+  color: #086D81; }
+
+#purchase-stripe-modal input.stripe--card-input {
+  height: 37px;
+  width: 228px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block; }
+
+.stripe--card-label::before {
+  content: 'credit_card';
+  display: block;
+  position: relative;
+  height: 11px;
+  width: 14px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  top: 10px;
+  left: 35px;
+  right: 0;
+  color: #086D81; }
+
+#purchase-stripe-modal input.stripe--mmyy-input {
+  height: 37px;
+  width: 114px;
+  border: 1px solid #ccc;
+  border-radius: 0 0 0 5px;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin: 0 auto 0 25px;
+  display: block;
+  color: #B3B3B3;
+  float: left; }
+
+.stripe--mmyy-label::before {
+  content: 'date_range';
+  position: relative;
+  height: 11px;
+  width: 14px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  top: 10px;
+  left: 35px;
+  right: 0;
+  color: #086D81; }
+
+#purchase-stripe-modal input.stripe--cvc-input {
+  height: 37px;
+  width: 114px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 0 5px 0;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: inline-block;
+  color: #B3B3B3;
+  float: left; }
+
+.stripe--email-label, .stripe--card-label, .stripe--cvc-label, .stripe--mmyy-label {
+  height: 0; }
+
+.stripe--cvc-label::before {
+  content: 'lock_outline';
+  display: block;
+  position: relative;
+  height: 11px;
+  width: 14px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  top: 10px;
+  left: 8px;
+  right: 0;
+  color: #086D81; }
+
+#purchase-stripe-modal input.stripe--checkbox-input {
+  height: 37px;
+  width: 228px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 35px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: inline-block;
+  color: #B3B3B3; }
+
+.stripe--remember-me {
+  border: 1px solid #ccc;
+  padding: 5px;
+  height: 37px;
+  width: 228px;
+  border-radius: 5px;
+  margin: 32px auto 35px;
+  padding-left: 10px;
+  background-color: #fff; }
+
+.stripe--pay-button.waves-effect.waves-light.btn-large {
+  height: 37px;
+  width: 228px;
+  background: linear-gradient(180deg, #43AEE6 0%, #3096DC 100%);
+  text-transform: capitalize;
+  display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 

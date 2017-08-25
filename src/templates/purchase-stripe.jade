@@ -5,11 +5,23 @@ block header
 
 block content
 	.main
-		#cancel-subscription-modal.modal
-			.modal-content
-				h1.dialogue--main.center Are you sure you want to cancel your unlimited plan?
-				h3.dialogue--msg.center Canceling will delete your timelines and you will <br> not receive any ongoing payments
-			
-			.cancel--button.waves-effect.waves-light.btn-large Confirm cancellation
-			.dialogue--action.center
-				a(href="#") I changed my mind
+		#purchase-stripe-modal.modal
+			.stripe--payment-header
+				button.stripe--close
+				button.stripe--logo
+				h1.stripe--payment-headline Professional
+				p.stripe--payment-subhead $9/month
+			.stripe--payment-input
+				.stripe--email-label
+				input.stripe--email-input(type="email" placeholder="Email")
+				.stripe--card-label
+				input.stripe--card-input(type="text" placeholder="Card number")
+				.stripe--mmyy-label
+				input.stripe--mmyy-input(type="text" placeholder="MM / YY")
+				.stripe--cvc-label
+				input.stripe--cvc-input(type="text")
+				br
+				.stripe--remember-me
+					input.stripe--checkbox-input(type="checkbox" id="remember")
+					label(for="remember") Remember Me
+				.stripe--pay-button.waves-effect.waves-light.btn-large Pay $9.99
