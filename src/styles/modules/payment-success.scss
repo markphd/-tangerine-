@@ -1,0 +1,21 @@
+#payment-success-modal.modal {
+	background-image: url('../images/confetti@2x.png');
+	background-repeat: no-repeat;
+	background-position: center 60px;
+	background-size: 240px;
+	height: 432px;
+	width: 430px;
+	border-radius: 4px;
+	padding: 150px 10px;
+}
+
+.cancel--button.waves-effect.waves-light.btn-large {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 35px;
+  background-color: #F14965;
+  display: block;
+  text-transform: none;
+  font-weight: 400;
+  padding: 0;
+}
