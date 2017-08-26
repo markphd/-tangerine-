@@ -533,11 +533,11 @@ h3.upgrade--subhead {
   border-radius: 4px;
   padding: 150px 10px; }
 
-.cancel--button.waves-effect.waves-light.btn-large {
-  width: 200px;
+#payment-success-modal .form--button.waves-effect.waves-light.btn-large {
+  width: 160px;
   margin: 0 auto;
   border-radius: 35px;
-  background-color: #F14965;
+  background-color: #9CBD3B;
   display: block;
   text-transform: none;
   font-weight: 400;
