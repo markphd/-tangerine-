@@ -1,0 +1,49 @@
+#upgrade-modal {
+	height: 510px;
+	width: 522px;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+h1.upgrade--headline {
+	font-family: 'Avenir Next';
+	font-weight: 500;
+	color: #394AB6;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+h3.upgrade--subhead {
+	font-family: 'Avenir Next';
+	font-weight: 500;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.upgrade--figure {
+	background-image: url('../images/Professional-plan@2x.png');
+	background-repeat: no-repeat;
+	background-size: 95%;
+	height: 230px;
+	width: 280px;
+	margin: 0 auto;
+	background-position: right;
+}
+
+.upgrade--button.waves-effect.waves-light.btn-large {
+	height: 50px;
+	width: 190px;
+	margin: 0 auto;
+	border-radius: 35px;
+	background-color: #9CBD3B;
+	display: block;
+	text-transform: none;
+	font-weight: 900;
+	padding: 0;
+	font-size: 14px;
+}
+

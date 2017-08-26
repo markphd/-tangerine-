@@ -125,6 +125,7 @@ a {
 @import "modules/cancel-subscription";
 @import "modules/signup-success";
 @import "modules/purchase-stripe";
+@import "modules/upgrade";
 // PRIMARY STYLE 
 
 *, *::after, *::before {
@@ -155,9 +156,11 @@ h1.headline {
 }
 
 h3.subhead {
-  font-size: 1em;
+  font-size: 16px;
   text-align: center;
   color: #cdcdcd;
+  line-height: 19px;
+  font-weight: lighter;
 }
 
 ul, ol {
