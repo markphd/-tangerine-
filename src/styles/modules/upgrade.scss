@@ -1,5 +1,5 @@
 #upgrade-modal {
-	height: 510px;
+	height: 608px;
 	width: 522px;
 	border-radius: 4px;
 	background-color: #fff;
@@ -24,13 +24,23 @@ h3.upgrade--subhead {
 	margin-top: 10px;
 }
 
+.upgrade--plan {
+	background-image: url('../images/toggle@2x.png');
+	background-repeat: no-repeat;
+	background-size: 95%;
+	height: 50px;
+	width: 197px;
+	margin: 0 auto 20px;
+	background-position: right;
+}
+
 .upgrade--figure {
 	background-image: url('../images/Professional-plan@2x.png');
 	background-repeat: no-repeat;
 	background-size: 95%;
 	height: 230px;
 	width: 280px;
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	background-position: right;
 }
 
