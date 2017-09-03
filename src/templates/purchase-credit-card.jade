@@ -1,8 +1,11 @@
 extends layout/master.jade
 
+block header
+	#logo
+
 block content
 	.main
-		.page--full.row
+		#purchase--cc.page--full.row
 			.col.m12.s12.l7
 				.form--input
 					.form--title
@@ -11,18 +14,26 @@ block content
 					div.input-field
 						label(for='card-holder-name') Card Holder Name
 						input#card-holder-name(type='text' class='validate')
-					div.input-field
-						label(for='password') Password
-						input#signup-password(type='password' class='validate')
-						p.inner--label 6+ characters
+					div.input-field.card-number
+						label(for='card-number') Card number
+						input#card-number(type='text' class='validate')
+					div.input-field.card-cvv
+						label(for='card-cvv') CVV
+						input#card-cvv(type='text' class='validate')
+					div.input-field.card-month
+						label(for='card-month') Month
+						input#card-cvv(type='text' class='validate')
+					div.input-field.card-day
+						label(for='card-day') Day
+						input#card-cvv(type='text' class='validate')
+					div.input-field.card-year
+						label(for='card-year') Year
+						input#card-cvv(type='text' class='validate')
+				.purchase--button.waves-effect.waves-light.btn-large Pay $9.99/mo
 
-				.form--button.waves-effect.waves-light.btn-large Sign up
-
-				.input--help.center
-					a(href="#") Already have an account?
-			.aside--testimonial.col.l5.hide-on-med-and-down
-				.aside--testimonial-quote
-					h2 Omelo has enabled me to push <br> code, not deadlines
-					p -Moe A (Dixon&moe.com)
+				.alert--message.center
+					| You can cancel at any time
+			.aside--purchase-cc.col.l5.hide-on-med-and-down
+				.aside--purchase-cc-quote
 					figure.aside--figure
-						img.responsive-img(src="dist/images/devices.png")
+						img.responsive-img(src="dist/images/omelo-card.png")

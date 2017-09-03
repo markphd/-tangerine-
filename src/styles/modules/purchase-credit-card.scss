@@ -1,0 +1,76 @@
+#purchase--cc.page--full.row:before, #purchase--cc:after {
+    content: "";
+    display: table;
+    clear: both;
+    zoom: 1; /* ie 6/7 */
+}
+
+#purchase--cc .form--input {
+	margin-bottom: 170px;
+}
+
+.aside--purchase-cc {
+    background-color: #7C6FFF;
+    @include background-image-retina('../images/Mountain-illustration', png, 600px, 320px);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+    animation: fadeIn 2.3s;
+}
+
+.aside--purchase-cc-quote {
+    margin: 30% 0;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.aside--purchase-cc-quote::after {
+    content: '';
+    @include background-image-retina('../images/confetti', png, 100%, 100%);
+    height: 186px;
+    width: 333px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.card-number,
+.card-cvv,
+.card-month,
+.card-day,
+.card-year {
+    float: left;
+}
+
+.card-number {
+	width: 65%;
+	margin-right: 5%;
+}
+
+.card-cvv, .card-month, .card-year, .card-day {
+	width: 30%;
+}
+
+.card-month,
+.card-day {
+	margin-right: 5%;
+}
+
+.purchase--button.waves-effect.waves-light.btn-large {
+	width: 160px;
+	margin: 5% auto 0;
+	border-radius: 35px;
+	background-color: #9CBD3B;
+	display: block;
+	text-transform: none;
+	font-weight: 900;
+	clear: left;
+	padding: 0;
+}

@@ -543,6 +543,83 @@ h3.upgrade--subhead {
   font-weight: 400;
   padding: 0; }
 
+#purchase--cc.page--full.row:before, #purchase--cc:after {
+  content: "";
+  display: table;
+  clear: both;
+  zoom: 1;
+  /* ie 6/7 */ }
+
+#purchase--cc .form--input {
+  margin-bottom: 170px; }
+
+.aside--purchase-cc {
+  background-color: #7C6FFF;
+  background-image: url("../images/Mountain-illustration.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+  -webkit-animation: fadeIn 2.3s;
+          animation: fadeIn 2.3s; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .aside--purchase-cc {
+      background-image: url("../images/Mountain-illustration@2x.png");
+      background-size: 600px 320px; } }
+
+.aside--purchase-cc-quote {
+  margin: 30% 0;
+  text-align: center;
+  position: relative;
+  z-index: 5; }
+
+.aside--purchase-cc-quote::after {
+  content: '';
+  background-image: url("../images/confetti.png");
+  height: 186px;
+  width: 333px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  position: absolute;
+  z-index: -1; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .aside--purchase-cc-quote::after {
+      background-image: url("../images/confetti@2x.png");
+      background-size: 100% 100%; } }
+
+.card-number,
+.card-cvv,
+.card-month,
+.card-day,
+.card-year {
+  float: left; }
+
+.card-number {
+  width: 65%;
+  margin-right: 5%; }
+
+.card-cvv, .card-month, .card-year, .card-day {
+  width: 30%; }
+
+.card-month,
+.card-day {
+  margin-right: 5%; }
+
+.purchase--button.waves-effect.waves-light.btn-large {
+  width: 160px;
+  margin: 5% auto 0;
+  border-radius: 35px;
+  background-color: #9CBD3B;
+  display: block;
+  text-transform: none;
+  font-weight: 900;
+  clear: left;
+  padding: 0; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 

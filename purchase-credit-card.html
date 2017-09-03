@@ -7,8 +7,9 @@
     <link href="dist/css/main.css" rel="stylesheet"/>
   </head>
   <body>
+    <div id="logo"></div>
     <div class="main">
-      <div class="page--full row">
+      <div class="page--full row" id="purchase--cc">
         <div class="col m12 s12 l7">
           <div class="form--input">
             <div class="form--title">
@@ -19,20 +20,33 @@
               <label for="card-holder-name">Card Holder Name</label>
               <input class="validate" id="card-holder-name" type="text"/>
             </div>
-            <div class="input-field">
-              <label for="password">Password</label>
-              <input class="validate" id="signup-password" type="password"/>
-              <p class="inner--label">6+ characters</p>
+            <div class="input-field card-number">
+              <label for="card-number">Card number</label>
+              <input class="validate" id="card-number" type="text"/>
+            </div>
+            <div class="input-field card-cvv">
+              <label for="card-cvv">CVV</label>
+              <input class="validate" id="card-cvv" type="text"/>
+            </div>
+            <div class="input-field card-month">
+              <label for="card-month">Month</label>
+              <input class="validate" id="card-cvv" type="text"/>
+            </div>
+            <div class="input-field card-day">
+              <label for="card-day">Day</label>
+              <input class="validate" id="card-cvv" type="text"/>
+            </div>
+            <div class="input-field card-year">
+              <label for="card-year">Year</label>
+              <input class="validate" id="card-cvv" type="text"/>
             </div>
           </div>
-          <div class="form--button waves-effect waves-light btn-large">Sign up</div>
-          <div class="input--help center"><a href="#">Already have an account?</a></div>
+          <div class="purchase--button waves-effect waves-light btn-large">Pay $9.99/mo</div>
+          <div class="alert--message center">You can cancel at any time</div>
         </div>
-        <div class="aside--testimonial col l5 hide-on-med-and-down">
-          <div class="aside--testimonial-quote">
-            <h2>Omelo has enabled me to push <br> code, not deadlines</h2>
-            <p>-Moe A (Dixon&moe.com)</p>
-            <figure class="aside--figure"><img class="responsive-img" src="dist/images/devices.png"/></figure>
+        <div class="aside--purchase-cc col l5 hide-on-med-and-down">
+          <div class="aside--purchase-cc-quote">
+            <figure class="aside--figure"><img class="responsive-img" src="dist/images/omelo-card.png"/></figure>
           </div>
         </div>
       </div>
