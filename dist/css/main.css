@@ -197,18 +197,19 @@ a {
   line-height: 19px; }
 
 #logo.signup-success {
-  position: relative;
+  position: absolute;
   margin: 0 auto;
-  top: 98px;
+  top: 58px;
   left: 0;
   right: 0; }
 
 #signup-success {
   height: 100%;
-  background: url("../images/Background@3x.png");
+  background: url("../images/Background@2x.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 70px 10px; }
+  padding: 70px 10px;
+  background-color: #F5F6FC; }
 
 .video-container {
   height: 272px;
