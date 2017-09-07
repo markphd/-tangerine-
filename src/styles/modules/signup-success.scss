@@ -1,23 +1,52 @@
 #logo.signup-success {
 	position: absolute;
 	margin: 0 auto;
-	top: 58px;
+	top: 6%;
 	left: 0;
 	right: 0;
 }
 
 #signup-success {
-	height: 100%;
 	background: url('../images/Background@2x.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 70px 10px;
+	padding: 8% 5%;
 	background-color: #F5F6FC;
 }
 
-.video-container {
-	height: 272px;
-	width: 535px;
-	padding: 0;
-	margin: 0 auto 63px;
+@media #{$small-and-down} {
+	#signup-success {
+		height: 100%;
+	}
+
+	#signup-success .headline {
+		margin-top: 15%;
+	}
+
+	#signup-success .subhead {
+		margin-bottom: 10%;
+	}
+
+	#signup-success .video-placeholder {
+		margin: 0 auto 10%;
+	}
+}
+
+@media #{$medium-and-up} { 
+	#signup-success {
+		max-width: inherit;
+		max-height: inherit;
+		padding: 8% 10%;
+	}
+
+	#signup-success .form--button {
+		margin: 10% auto 20%;
+	}
+
+	#signup-success .video-placeholder {
+		width: 535px;
+		height: 272px;
+		margin: 0 auto 5%;
+		padding-bottom: 5%;
+	}
 }
