@@ -266,7 +266,7 @@ button.stripe--logo::after {
           transform: translate(-50%, -50%); }
 
 .stripe--payment-headline, .stripe--payment-subhead {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
   text-shadow: 0 1px 1px 0 #FFFFFF;
   text-align: center; }
 
@@ -532,7 +532,7 @@ h3.upgrade--subhead {
   font-size: 14px; }
 
 #payment-success-modal.modal {
-  background-image: url("../images/confetti@2x.png");
+  background-image: url("../images/purchase-confetti.png");
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 240px;
