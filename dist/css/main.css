@@ -208,11 +208,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 8% 5%;
-  background-color: #F5F6FC; }
+  background-color: #F5F6FC;
+  background-position: center; }
 
 @media only screen and (max-width: 600px) {
   #signup-success {
-    height: 100%; }
+    height: 100vh; }
   #signup-success .headline {
     margin-top: 15%; }
   #signup-success .subhead {
@@ -222,8 +223,8 @@ a {
 
 @media only screen and (min-width: 601px) {
   #signup-success {
-    max-width: inherit;
-    max-height: inherit;
+    min-width: 100vh;
+    min-height: 100vh;
     padding: 8% 10%; }
   #signup-success .form--button {
     margin: 10% auto 20%; }

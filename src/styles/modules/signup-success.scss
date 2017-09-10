@@ -12,11 +12,12 @@
 	background-repeat: no-repeat;
 	padding: 8% 5%;
 	background-color: #F5F6FC;
+	background-position: center;
 }
 
 @media #{$small-and-down} {
 	#signup-success {
-		height: 100%;
+		height: 100vh;
 	}
 
 	#signup-success .headline {
@@ -34,8 +35,8 @@
 
 @media #{$medium-and-up} { 
 	#signup-success {
-		max-width: inherit;
-		max-height: inherit;
+		min-width: 100vh;
+		min-height: 100vh;
 		padding: 8% 10%;
 	}
 
