@@ -213,7 +213,12 @@ a {
 
 @media only screen and (max-width: 600px) {
   #signup-success {
-    height: 100vh; }
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background: url("../images/signup-success-bg-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
   #signup-success .headline {
     margin-top: 15%; }
   #signup-success .subhead {
@@ -223,7 +228,7 @@ a {
 
 @media only screen and (min-width: 601px) {
   #signup-success {
-    min-width: 100vh;
+    min-width: 100vw;
     min-height: 100vh;
     padding: 8% 10%; }
   #signup-success .form--button {
@@ -697,9 +702,7 @@ ul, ol {
   box-shadow: 0 1px 0 0 #3949ab; }
 
 .warning--message {
-  color: #F05069;
-  -webkit-animation: fadeIn 3s;
-          animation: fadeIn 3s; }
+  color: #F05069; }
 
 .page--full.row {
   margin-bottom: 0; }
@@ -711,9 +714,7 @@ ul, ol {
   background-color: #9CBD3B;
   display: block;
   text-transform: none;
-  font-weight: 900;
-  -webkit-animation: fadeIn 2.3s;
-          animation: fadeIn 2.3s; }
+  font-weight: 900; }
 
 .spinner-layer.spinner-white {
   border-color: #fff; }
@@ -730,9 +731,7 @@ ul, ol {
     background-image: url("../images/Logo.png");
     background-repeat: no-repeat;
     display: block;
-    margin: 6% auto 10%;
-    -webkit-animation: fadeIn 2.3s;
-            animation: fadeIn 2.3s; } }
+    margin: 6% auto 10%; } }
   @media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (min-resolution: 2dppx) {
     #logo {
       background-image: url("../images/Logo@2x.png");
@@ -746,9 +745,6 @@ ul, ol {
   .form--input {
     max-width: 260px;
     margin: 0 auto 16%; }
-  .form--input > .input-field {
-    -webkit-animation: fadeIn 2.5s;
-            animation: fadeIn 2.5s; }
   .input--help-forgot {
     position: relative;
     top: -25px;
@@ -800,9 +796,6 @@ ul, ol {
     display: block;
     margin: 80px auto 40px;
     padding: 5%; }
-  .form--input > .input-field {
-    -webkit-animation: fadeIn 2.5s;
-            animation: fadeIn 2.5s; }
   .inner--label {
     color: #979797;
     font-size: 14px;
@@ -810,9 +803,6 @@ ul, ol {
     right: 0;
     top: 8;
     text-transform: uppercase; }
-  .input--help {
-    -webkit-animation: fadeIn 2.5s;
-            animation: fadeIn 2.5s; }
   input#name, input#password {
     font-weight: 400;
     font-size: 1.4em;
@@ -824,9 +814,7 @@ ul, ol {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    color: #fff;
-    -webkit-animation: fadeIn 2.3s;
-            animation: fadeIn 2.3s; } }
+    color: #fff; } }
   @media only screen and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (-moz-min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (min-resolution: 192dpi), only screen and (min-width: 601px) and (min-resolution: 2dppx) {
     .aside--testimonial {
       background-image: url("../images/Mountain-illustration@2x.png");
@@ -872,9 +860,7 @@ ul, ol {
     display: block;
     position: absolute;
     top: 39px;
-    left: 33px;
-    -webkit-animation: fadeIn 2.3s;
-            animation: fadeIn 2.3s; } }
+    left: 33px; } }
   @media only screen and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (-moz-min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (min-device-pixel-ratio: 2), only screen and (min-width: 601px) and (min-resolution: 192dpi), only screen and (min-width: 601px) and (min-resolution: 2dppx) {
     #logo {
       background-image: url("../images/Logo@2x.png");

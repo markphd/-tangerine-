@@ -17,7 +17,12 @@
 
 @media #{$small-and-down} {
 	#signup-success {
-		height: 100vh;
+		min-height: 100vh;
+		min-width: 100vw;
+		background-position: center;
+		background: url('../images/signup-success-bg-mobile.png');
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	#signup-success .headline {
@@ -35,7 +40,7 @@
 
 @media #{$medium-and-up} { 
 	#signup-success {
-		min-width: 100vh;
+		min-width: 100vw;
 		min-height: 100vh;
 		padding: 8% 10%;
 	}

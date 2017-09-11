@@ -208,8 +208,7 @@ ul, ol {
 // }
 
 .warning--message {
-  color: #F05069;
-  animation: fadeIn 3s;
+  color: #F05069;  
 }
 
 // END PRIMARY STYLE 
@@ -227,8 +226,7 @@ ul, ol {
   background-color: #9CBD3B;
   display: block;
   text-transform: none;
-  font-weight: 900;
-  animation: fadeIn 2.3s;
+  font-weight: 900;  
 }
 
 .spinner-layer.spinner-white {
@@ -248,8 +246,7 @@ ul, ol {
     @include background-image-retina('../images/Logo', png, 45px, 39px);
     background-repeat: no-repeat;
     display: block;
-    margin: 6% auto 10%;
-    animation: fadeIn 2.3s;
+    margin: 6% auto 10%;    
   }
 
   .page--full.row {
@@ -265,8 +262,7 @@ ul, ol {
     margin: 0 auto 16%;
   }
 
-  .form--input > .input-field {
-    animation: fadeIn 2.5s;
+  .form--input > .input-field {    
   }
 
   .input--help-forgot {
@@ -347,8 +343,7 @@ ul, ol {
     padding: 5%;
   }
 
-  .form--input > .input-field {
-    animation: fadeIn 2.5s;
+  .form--input > .input-field {    
   }
 
   .inner--label {
@@ -359,8 +354,7 @@ ul, ol {
     text-transform: uppercase;
   }
 
-  .input--help {
-    animation: fadeIn 2.5s;
+  .input--help {    
   }
 
   input#name, input#password {
@@ -376,8 +370,7 @@ ul, ol {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    color: #fff;
-    animation: fadeIn 2.3s;
+    color: #fff;    
   }
 
 
@@ -424,8 +417,7 @@ ul, ol {
     display: block;
     position: absolute;
     top: 39px;
-    left: 33px;
-    animation: fadeIn 2.3s;
+    left: 33px;    
   }
 
 
