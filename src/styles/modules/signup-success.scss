@@ -10,7 +10,6 @@
 	background: url('../images/Background@2x.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 8% 5%;
 	background-color: #F5F6FC;
 	background-position: center;
 }
@@ -23,6 +22,7 @@
 		background: url('../images/signup-success-bg-mobile.png');
 		background-size: cover;
 		background-repeat: no-repeat;
+		padding: 9% 5%;
 	}
 
 	#signup-success .headline {
@@ -42,7 +42,7 @@
 	#signup-success {
 		min-width: 100vw;
 		min-height: 100vh;
-		padding: 8% 10%;
+		padding: 13% 2%;
 	}
 
 	#signup-success .form--button {
@@ -54,5 +54,15 @@
 		height: 272px;
 		margin: 0 auto 5%;
 		padding-bottom: 5%;
+	}
+}
+
+@media #{$large-and-up} {
+	#signup-success {
+		padding: 5% 2% 1%;
+	}
+
+	#signup-success .form--button {
+		margin: 6% auto 5%;
 	}
 }
