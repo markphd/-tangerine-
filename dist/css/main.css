@@ -564,7 +564,8 @@ h3.upgrade--subhead {
 .upgrade--plan {
   height: 50px;
   width: 197px;
-  margin: 8% auto 15px; }
+  margin: 8% auto 15px;
+  font-size: 0; }
 
 .upgrade--plan > button.monthly {
   border: 1px solid #394AB6;
@@ -573,7 +574,8 @@ h3.upgrade--subhead {
   line-height: 2em;
   min-width: 92px;
   margin: 0;
-  background-color: #fff; }
+  background-color: #fff;
+  font-size: 14px; }
 
 .upgrade--plan > button.yearly {
   border: 1px solid #ccc;
@@ -582,7 +584,8 @@ h3.upgrade--subhead {
   line-height: 2em;
   min-width: 92px;
   margin: 0;
-  background-color: #fff; }
+  background-color: #fff;
+  font-size: 14px; }
 
 button.yearly:after {
   content: 'SAVE $16';
