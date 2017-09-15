@@ -1,3 +1,4 @@
+
 #cancel-subscription-modal {
 	background-image: url('../images/illustration@2x.png');
 	background-repeat: no-repeat;
@@ -35,4 +36,51 @@
 	margin: 5%;
 	color: #cdcdcd;
 	line-height: 19px;	
+}
+
+@media #{$small-and-down} {
+	#cancel-subscription-modal {
+		background-image: url('../images/illustration@2x.png');
+		background-repeat: no-repeat;
+		background-position: 0 40px;
+		background-size: 190px;
+		padding: 90px 5px 0;
+		min-height: 460px;
+		width: 310px;
+		border-radius: 4px;
+		overflow: scroll;
+	}
+
+	.dialogue--action {
+		margin: 8%;
+		color: #cdcdcd;
+		line-height: 19px;	
+	}
+
+	.modal-content {
+		margin-bottom: -10px;
+	}
+}
+
+@media #{$medium-and-up} {
+
+	#cancel-subscription-modal {
+		background-image: url('../images/illustration@2x.png');
+		background-repeat: no-repeat;
+		background-position: 0 62px;
+		background-size: 240px;
+		padding: 120px 10px 0;
+		min-height: 480px;
+		border-radius: 4px;
+	} 
+
+	.dialogue--action {
+		margin: 10%;
+		color: #cdcdcd;
+		line-height: 19px;	
+	} 
+}
+
+@media #{$large-and-up} {
+
 }
