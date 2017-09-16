@@ -14,7 +14,7 @@
           <h1 class="upgrade--headline">Upgrade to Pro?</h1>
           <h3 class="upgrade--subhead">Unlimited project timelines</h3>
           <div class="upgrade--plan">
-            <button class="monthly">Monthly</button>
+            <button class="monthly selected">Monthly</button>
             <button class="yearly">Yearly</button>
           </div>
           <div class="upgrade--figure"></div>
@@ -22,6 +22,27 @@
         </div>
       </div>
     </div>
+    <script>
+      var buttonMonthly = document.getElementsByClassName('monthly')[0];
+      var buttonYearly = document.getElementsByClassName('yearly')[0];
+      var upgradeButton = document.getElementsByClassName('upgrade--button')[0];
+      
+      buttonYearly.addEventListener('click', function(){			
+      	buttonMonthly.classList.remove('selected');
+      	if(!this.classList.contains('selected')) {
+      		this.className += ' selected'
+      	}
+      	upgradeButton.textContent = "Upgrade for $92"
+      }, false)
+      
+      buttonMonthly.addEventListener('click', function(){
+      	buttonYearly.classList.remove('selected');
+      	if(!this.classList.contains('selected')) {
+      		this.className += ' selected'
+      	}
+      	upgradeButton.textContent = "Upgrade for $9/mo"
+      }, false)
+    </script>
     <script src="dist/scripts/jquery.min.js"></script>
     <script src="dist/scripts/hideshowpassword.min.js"></script>
     <script src="dist/scripts/materialize.min.js"></script>
