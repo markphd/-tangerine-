@@ -296,7 +296,8 @@ button.stripe--close {
   width: 18px;
   border: none;
   background: url("../images/stripe-close.png") no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  outline: none; }
 
 button.stripe--logo {
   position: absolute;
@@ -570,7 +571,7 @@ h3.upgrade--subhead {
 .selected {
   border: 1px solid #394AB6; }
 
-button:not(.selected) {
+.upgrade--plan > button:not(.selected) {
   border: 1px solid #ccc; }
 
 .upgrade--plan > button.monthly {
