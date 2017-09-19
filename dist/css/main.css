@@ -534,7 +534,8 @@ h1.stripe--payment-headline {
   margin: 0;
   line-height: 35px;
   margin: 0 auto;
-  font-family: "Helvetica Neue", Helvetica, Arial; }
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: bold; }
 
 #upgrade-modal {
   height: 608px;
@@ -690,7 +691,7 @@ button.yearly:after {
     background-image: url("../images/Professional-plan@2x.png");
     background-repeat: no-repeat;
     background-size: 95%;
-    height: 300px;
+    height: 290px;
     width: 320px;
     margin: 0 auto; } }
 

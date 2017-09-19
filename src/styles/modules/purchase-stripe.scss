@@ -159,18 +159,6 @@ h1.stripe--payment-headline {
 }
 
 #purchase-stripe-modal input.stripe--mmyy-input {
-	// height: 37px;
-	// width: 114px;
-	// border: 1px solid #ccc;
-	// border-radius: 0 0 0 5px;
-	// background-color: #fff;
-	// box-shadow: none;
-	// padding-left: 35px;
-	// box-sizing: border-box;
-	// margin: -11px auto 0;
-	// display: inline-block;
-	// color: #B3B3B3;
-	// float: left;
 	height: 37px;
 	width: 114px;
 	border: 1px solid #ccc;
@@ -294,5 +282,6 @@ h1.stripe--payment-headline {
 	line-height: 35px;
 	margin: 0 auto;
 	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: bold;
 }
 
