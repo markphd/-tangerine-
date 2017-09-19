@@ -17,7 +17,7 @@
   background-color: #F14965;
   display: block;
   text-transform: none;
-  font-weight: 400;
+  font-weight: bold;
   padding: 0;
 }
 
@@ -79,8 +79,4 @@
 		color: #cdcdcd;
 		line-height: 19px;	
 	} 
-}
-
-@media #{$large-and-up} {
-
 }
